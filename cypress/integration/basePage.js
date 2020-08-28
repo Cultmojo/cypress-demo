@@ -33,7 +33,7 @@ describe('Base page tests', () => {
         it('Enter text in the textbox', () => {
             cy.visitBasePage()
             cy.get(po.BASE_PAGE_TEXTBOX).click().type("Hello World")
-            cy.get(po.BASE_PAGE_TEXTBOX).should('have.value','Hello World')
+            cy.get(po.BASE_PAGE_TEXTBOX).should('have.value', 'Hello World')
         })
 
 })
