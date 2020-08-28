@@ -30,7 +30,8 @@ export class PageObject {
 
     //Ch4 page elements
 
-    //Ch5 page elements
+    //Ch8 page elements
+    CH8_CREATE_COOKIE_BUTTON = '#secondCookie';
 
 
 
