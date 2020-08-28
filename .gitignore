@@ -1,0 +1,23 @@
+### Environment vairables
+*envVars.json
+*cypress.json
+
+### Cypress
+*target
+!.mvn/wrapper/maven-wrapper.jar
+*node_modules
+*videos
+*screenshots
+*report
+*merged-reports
+*test-results*
+
+### vscode ###
+.vscode
+
+/target/
+/client/node_modules
+/client/bin
+/server/bin
+
+*.DS_Store
