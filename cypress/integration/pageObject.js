@@ -19,8 +19,13 @@ export class PageObject {
     CH1_LOAD_TEXT_BUTTON = '#secondajaxbutton';
     CH1_TEXTBOX = '#secondajax';
     CH1_VERIFY_BUTTON = '#verifybutton';
-    CH1_MESSAGE_TEXTBOX = '#html5div';
-    CHI_TEXT = 'I have been added with a timeout';
+    CH1_AJAX_MESSAGE_TEXTBOX = '#ajaxdiv > p';
+    CH1_LOAD_AJAX_LINK = '#loadajax';
+    CH1_AJAX_TEXT = 'The following text has been loaded from another page on this site. It has been loaded in an asynchronous fashion so that we can work through the AJAX section of this chapter';
+    CH1_TEXT = 'I have been added with a timeout';
+    CH1_LARGE_TEXTBOX_MESSAGE = 'To be used after the AJAX section of the book';
+    CH1_LARGE_TEXTBOX = '#html5div';
+
     
     //Ch2 page elements
     CH2_INDEX_LINK = 'body > div.mainbody > div:nth-child(1) > a';
@@ -41,10 +46,6 @@ export class PageObject {
     //Ch4 page elements
     CH4_INDEX_LINK = '';
     CH4_SELENIUM_DROPDOWN = '#selecttype';
-    CH$_SELECT_SELENIUM_IDE = '#selecttype > option:nth-child(1)';
-    CH4_SELECT_SELENIUM_CORE = '#selecttype > option:nth-child(2)';
-    CH4_SELECT_SELENIUM_RC = '#selecttype > option:nth-child(3)';
-    CH4_SELECT_SELENIUM_GRID = '#selecttype > option:nth-child(4)';
     CH4_CLICK_TO_LOAD_BUTTON = '#selectLoad';
     CH4_DROPDOWN_BUTTON = '#ajaxLoad';
     CH4_MOUSE_OVER_THIS = '#hoverOver';
